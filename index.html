@@ -34,7 +34,7 @@
     }
     var list = [
         [
-             "https://mp.weixin.qq.com/s/zTr8jGKe4BPTwvZbPqkaLQ",
+            "https://mp.weixin.qq.com/s/zTr8jGKe4BPTwvZbPqkaLQ",
             "https://mp.weixin.qq.com/s/r4XpA3G1I2H0Bw33OWtvFg",
             "https://mp.weixin.qq.com/s/VMeOVv4IWklDD8p0anKLGg",
             "https://mp.weixin.qq.com/s/RVCyD0G5xPwSY1SsR3qyuw",
@@ -96,8 +96,8 @@
     }
 
     function handle_click() {
-        var x = parseInt(Math.random() * (list.length), 10);;
-        // alert(x);
+        var x = parseInt(Math.random() * (list[id].length), 10);;
+        // console.log(x);
         window.open(list[id][x]);
     }
 </script>
